@@ -1,0 +1,9 @@
+Suits|10.09|1
+Pants|8.31|1
+Ties|5.30|1
+Shirts|6.55|1
+Sweaters|8.53|1
+Dresses|16.38|1
+Blankets|35.17|2
+WeddingGowns|143.25|4
+Curtains|28.69|3

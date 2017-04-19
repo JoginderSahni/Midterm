@@ -12,6 +12,7 @@ namespace Midterm
     {
         static void Main(string[] args)
         {
+            Console.Title = "Team2Beat Dry Cleaner Kiosk"; // Cory did it!!!111
             List<Order> orderHistory = new List<Order>();
             for  (int i = 10000; ;i++)
             {
@@ -65,6 +66,7 @@ namespace Midterm
             double userPhoneNumber;
             bool existingCustomer = false;
             Person customerHolder = new Person();
+            bool tf;
             try
             {
                 sr = new StreamReader(fs);
@@ -78,7 +80,14 @@ namespace Midterm
                 }
                 Console.WriteLine("Welcome to Team2Beat Dry Cleaners!");
                 Console.WriteLine("Please enter your 10-digit phone number.");
-                userPhoneNumber = double.Parse(Console.ReadLine());
+                do
+                {
+                    string s = Console.ReadLine();
+                    tf = double.TryParse(s, out userPhoneNumber);
+                    if (tf == false)
+                        Console.WriteLine("That didnt work. Please try again.");
+                }
+                while (tf == false);
                 foreach (Person customer in customers)
                 {
                     if (customer.PhoneNumber == userPhoneNumber)

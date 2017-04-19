@@ -1,4 +1,3 @@
-C:\Users\jsahni\Desktop\Bootcamp\Midterm\Midterm\Midterm\bin\Debug\Midterm.exe.config
 C:\Users\jsahni\Desktop\Bootcamp\Midterm\Midterm\Midterm\bin\Debug\Midterm.exe
 C:\Users\jsahni\Desktop\Bootcamp\Midterm\Midterm\Midterm\bin\Debug\Midterm.pdb
 C:\Users\jsahni\Desktop\Bootcamp\Midterm\Midterm\Midterm\obj\Debug\Midterm.csprojResolveAssemblyReference.cache
